@@ -15,8 +15,8 @@ namespace RoadStatus
 
             var roadId = args[0];
             
-            var appId = string.Empty;
-            var developerKey = string.Empty;
+            string appId;
+            string developerKey;
 
             if (ThreeArgumentsWerePassed(args))
             {
