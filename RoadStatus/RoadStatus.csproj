@@ -1,11 +1,6 @@
 ﻿
   <Project Sdk="Microsoft.NET.Sdk">
    <ItemGroup>
-     <Compile Remove="_____________DOCUMENTS______________________\**" />
-     <EmbeddedResource Remove="_____________DOCUMENTS______________________\**" />
-     <None Remove="_____________DOCUMENTS______________________\**" />
-   </ItemGroup>
-   <ItemGroup>
      <Compile Remove="repo.cs" />
    </ItemGroup>
    <ItemGroup>
