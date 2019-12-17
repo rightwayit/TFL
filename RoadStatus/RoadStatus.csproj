@@ -1,0 +1,26 @@
+﻿
+  <Project Sdk="Microsoft.NET.Sdk">
+   <ItemGroup>
+     <Compile Remove="_____________DOCUMENTS______________________\**" />
+     <EmbeddedResource Remove="_____________DOCUMENTS______________________\**" />
+     <None Remove="_____________DOCUMENTS______________________\**" />
+   </ItemGroup>
+   <ItemGroup>
+     <Compile Remove="repo.cs" />
+   </ItemGroup>
+   <ItemGroup>
+     <None Remove="Developer coding challenge.docx" />
+   </ItemGroup>
+   <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
+    <PackageReference Include="System.Runtime.Serialization.Json" Version="4.3.0" />
+<!--    <PackageReference Include="System.Runtime.Serialization.Xml" Version="4.3.0" /> -->
+    <PackageReference Include="System.Runtime.Serialization.Primitives" Version="4.3.0" />
+   </ItemGroup> 
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+</Project>
